@@ -2,7 +2,7 @@ from bs4 import BeautifulSoup
 import requests
 
 def scrape_url(Location, Speciality, limit=10):
-    url = f"Site url to scrape" 
+    url = f"Enter Page Url" 
     response = requests.get(url)
     soup = BeautifulSoup(response.text, "html.parser")
     
